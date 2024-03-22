@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ANT Buildfile
+-->
+<project name="gpio-properties-init">
+	<dirname property="ant.dir.init-gpio" file="${{ant.file.init-gpio}"/>
+	<target name="init/addgpioproperties" extensionOf="init/execution">
+		<property file="${platform.dir}/gpio/gpio.properties" prefix="com.nxp.io.gpio."/>
+		<augment id="init.constants">
+			<propertyref regex="com.nxp.io.gpio.*"/>
+		</augment>
+	</target>
+</project>

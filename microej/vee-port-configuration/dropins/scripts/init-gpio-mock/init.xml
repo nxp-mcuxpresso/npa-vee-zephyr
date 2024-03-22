@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    ANT Buildfile
+
+	Copyright 2024 NXP
+	SPDX-License-Identifier: BSD-3-Clause
+-->
+<project name="gpiomock-s3-init">
+
+	<import file="${scripts.dir}/extension-init.xml" />
+
+	<target name="init/gpiomock-s3" extensionOf="init/execution" if="onS3">
+		<augment id="hil.main.classpath">
+			<fileset dir="${platform.dir}/mocks" includes="mockgpio-mock.jar"/>
+		</augment>
+	</target>
+
+</project>

@@ -1,0 +1,342 @@
+Release Name: NXPVEE-ZEPHYR
+Release Version: 1.0.0
+Date: December 2024
+Package License: LICENSE.txt
+Outgoing License: LA_OPT_NXP_Software_License v58 November 2024, Section 2.3 applies
+
+SimpleGFX                  Name: SimpleGFX
+                           Version: 0.1
+                           Outgoing License: BSD-3-Clause
+                           License File: microej/apps/SimpleGFX/LICENSE.txt
+                           Format: source code
+                           Description: example of a graphics VEE application
+                           Location: microej/apps/SimpleGFX/src/main/java/com/nxp/simpleGFX
+                           Origin: NXP (BSD-3-Clause)
+
+HelloWorld                 Name: HelloWorld
+                           Version: 0.1
+                           Outgoing License: BSD-3-Clause
+                           License File: microej/apps/HelloWorld/LICENSE.txt
+                           Format: source code
+                           Description: example of a graphics VEE application
+                           Location: microej/apps/HelloWorld/src/main/java/com/nxp/HelloWorld
+                           Origin: NXP (BSD-3-Clause)
+
+AiSample                   Name: AiSample
+                           Version: 0.1
+                           Outgoing License: BSD-3-Clause
+                           License File: microej/apps/AiSample/LICENSE.txt
+                           Format: source code
+                           Description: example of a graphics VEE application
+                           Location: microej/apps/AiSample/src/main/java/com/nxp/aiSample
+                           Origin: NXP (BSD-3-Clause)
+
+MicroEJ BSP                Name: MicroEJ BSP
+                           Version: 1.x.x
+                           Outgoing License: BSD-3-Clause
+                           License File: Licenses/COPYING-BSD-3
+                           Format: source code
+                           Description: Board support package for nxp HW
+                           Location: bsp/microej (excluding subdirectories thirdparty, gpio and ai)
+                           Origin: MicroEJ (https://www.microej.com/)
+
+MicroEJ ARCHITECTURE       Name: Microej Architecture
+                           Version: flopi4G25-8.1.0
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: MicroEJ Architecture for GNU Tools for ARM Embedded Processors 4.8.
+                           Location: dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://repository.microej.com/architectures/com/microej/architecture/CM4/CM4hardfp_GCC48/flopi4G25/8.1.0/
+
+MicroEJ BASICTOOL          Name: Basic Tool
+                           Version: 1.5.0
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Miscellaneous tools
+                           Location: transitive dependency of microej/apps/module.ivy
+                           Origin: MicroEJ
+                           Url: https://repository.microej.com/javadoc/microej_5.x/apis/ej/basictool/package-summary.html
+
+MicroEJ BON                Name: Beyond Profile (BON)
+                           Version: 1.4
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Control memory usage and start-up sequences
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/ApplicationDeveloperGuide/runtime.html?highlight=edc#beyond-profile-bon
+
+MicroEJ COLLECTIONS        Name: Collections
+                           Version: 1.3.0
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Static methods that operate on or return collections
+                           Location: transitive dependency of microej/apps/module.ivy
+                           Origin: MicroEJ
+                           Url: https://repository.microej.com/javadoc/microej_5.x/apis/index.html?java/util/Collections.html
+
+MicroEJ DEVICE             Name: Device Pack
+                           Version: 1.2
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: The Device Foundation Library provides access to the device information.
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/VEEPortingGuide/device.html
+
+MicroEJ Device Pack        Name: Device Pack
+                           Version: 1.1.1
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: The Device Foundation Library provides access to the device information.
+                           Location: dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/VEEPortingGuide/device.html
+
+MicroEJ DRAWING            Name: Drawing
+                           Version: 1.0
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Contains shapes rendering and image with transformation rendering algorithms
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://repository.microej.com/javadoc/microej_5.x/apis/ej/drawing/package-summary.html
+
+MicroEJ EDC                Name: Embedded Device Configuration (EDC)
+                           Version: 1.3
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Implementation of the minimal standard runtime environment for
+                           embedded devices
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/ApplicationDeveloperGuide/runtime.html?highlight=edc#embedded-device-configuration-edc
+
+MicroEJ FRAMEWORK          Name: Frontpanel Framework Library
+                           Version: 1.1.0
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Frontpanel framework creation library
+                           Location: dependency of microej/front-panel/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/PlatformDeveloperGuide/frontpanel.html
+
+MicroEJ FRONTPANEL         Name: Frontpanel
+                           Version: 1.1.0
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Frontpanel creation library
+                           Location: dependency of microej/front-panel/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/PlatformDeveloperGuide/frontpanel.html
+
+MicroEJ FS                 Name: File System
+                           Version: 2.1
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: The FS Foundation Library defines a low-level File System framework for embedded devices.
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/VEEPortingGuide/fs.html
+
+MicroEJ FS Pack            Name: File System Pack
+                           Version: 6.0.4
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: The FS Foundation Library defines a low-level File System framework for embedded devices.
+                           Location: dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/VEEPortingGuide/fs.html
+
+MicroEJ IMAGEGENERATOR     Name: Image Generator
+                           Version: 7.7.0
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Off-board tool in charge of generating image data
+                           Location: dependency of microej/front-panel/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/PlatformDeveloperGuide/uiImageGenerator.html
+
+MicroEJ JUNIT              Name: Junit
+                           Version: 1.7.1
+                           Outgoing License: Eclipse Public License - v 1.0
+                           License File: https://spdx.org/licenses/EPL-1.0.html
+                           Description: Unit test framework
+                           Location: dependency of microej/apps/module.ivy
+                           Origin: JUNIT
+                           Url: https://junit.org/
+
+MicroEJ KF                 Name: Kernel Features (KF)
+                           Version: 1.7
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Java implementation of the Multi-Sandbox features
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/VEEPortingGuide/appendix/javalibs/kf.html
+
+MicroEJ MicroUI            Name: MicroUI
+                           Version: 3.1
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: MicroUI API module.
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/ApplicationDeveloperGuide/UI/MicroUI/index.html
+
+MicroEJ MicroUI Pack       Name: MicroUI Pack
+                           Version: 13.7.2
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Enable the creation of user interface in Java
+                           Location: dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/VEEPortingGuide/ui.html
+
+MicroEJ MWT                Name: Micro Widget Toolkit
+                           Version: 3.3.1
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Symplify the creation and use of graphical user interface widgets in Java
+                           Location: dependency of microej/apps/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/ApplicationDeveloperGuide/UI/MWT/index.html
+
+MicroEJ NET                Name: Networking
+                           Version: 1.1
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: The Net module defines a low-level network framework for embedded devices.
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/VEEPortingGuide/networkCoreEngine.html
+
+MicroEJ NET Pack           Name: MicroEJ Pack NET
+                           Version: 10.4.0
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: This pack contains the networking modules group: NET, SSL & Security.
+                           Location: dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/VEEPortingGuide/networkCoreEngine.html
+
+MicroEJ PUMP               Name: Pump
+                           Version: 2.0.2
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Used by MicroUI to manage events
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+
+MicroEJ RESOURCE MANAGER   Name: Resource Manager
+                           Version: 1.0
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Manage resources
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+
+MicroEJ SECURITY           Name: Security
+                           Version: 1.4
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: The Java module related to permission management.
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+
+MicroEJ SNI                Name: Simple Native Interface (SNI)
+                           Version: 1.4.0
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Allow to call native method from managed code
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/VEEPortingGuide/sni.html
+                           Origin: MicroEJ
+
+MicroEJ SSL                Name: Secure Sockets Layer (SSL)
+                           Version: 2.2
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Allow to create and establish an encrypted connection between a server and a client.
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/VEEPortingGuide/ssl.html
+
+MicroEJ TRACE              Name: Trace
+                           Version: 1.1
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Record integer based events for debugging and monitoring purposes
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+                           Url: https://docs.microej.com/en/latest/ApplicationDeveloperGuide/trace.html
+
+MicroEJ WATCHDOG           Name: Watchdog
+                           Version: 1.0
+                           Outgoing License: MicroEJ SDK EULA
+                           License File: Licenses/MICROEJ_SDK_EULA.txt
+                           Description: Watchdog used by MicroUI
+                           Location: transitive dependency of microej/vee-port-configuration/module.ivy
+                           Origin: MicroEJ
+
+Zephyr                     Name: Zephyr
+                           Version: 4.0
+                           Outgoing License: Apache 2.0
+                           License File: bsp/zephyr/LICENSE
+                           Description: Open source scalable real-time operating system
+                           Location: https://github.com/zephyrproject-rtos/zephyr.git
+                           Origin: https://github.com/zephyrproject-rtos/zephyr.git
+
+hal_nxp                    Name: hal_nxp
+                           Version: 3c64cd63125c86870802a561ce79dc33697b005c
+                           Outgoing License: BSD-3-Clause
+                           License File: bsp/modules/hal/nxp/LICENSE.BSD-3
+                           Description: SDK files for Zephyr
+                           Location: bsp/modules/hal/nxp/
+                           Origin: https://github.com/nxp-zephyr/hal_nxp.git
+
+cmsis                      Name: cmsis
+                           Version: 5.0
+                           Outgoing License: Apache 2.0
+                           License File: bsp/modules/hal/cmsis/LICENSE.txt
+                           Description: Vendor-independent hardware abstraction layer for microcontrollers that are based on Arm Cortex processors, distributed by
+                           ARM. core
+                           Origin: ARM
+                           Location: bsp/modules/hal/cmsis
+                           Origin: https://github.com/zephyrproject-rtos/cmsis
+
+segger                     Name: segger
+                           Version: 798f95ea9304e5ed8165a661081443051f210733
+                           Outgoing License: SEGGER BSD
+                           License File: Licenses/SEGGER_LICENSE
+                           Description: Target code for real-time recording and visualization tool
+                           Location: bsp/modules/debug/segger/
+                           Origin: https://github.com/zephyrproject-rtos/segger
+
+cmsis-dsp                  Name: cmsis-dsp
+                           Version: 6489e771e9c405f1763b52d64a3f17a1ec488ace
+                           Outgoing License: Apache 2.0
+                           License File: bsp/modules/lib/cmsis-dsp/LICENSE
+                           Description: optimized compute library for embedded systems
+                           Location: bsp/modules/lib/cmsis-dsp
+                           Origin: https://github.com/zephyrproject-rtos/CMSIS-DSP
+
+cmsis-nn                   Name: cmsis-nn
+                           Version: ea987c1ca661be723de83bd159aed815d6cbd430
+                           Outgoing License: Apache 2.0
+                           License File: bsp/modules/lib/cmsis-nn/LICENSE
+                           Description: A neural network kernels library for Cortex-M cores from ARM
+                           Location: bsp/modules/lib/cmsis-nn/
+                           Origin: https://github.com/zephyrproject-rtos/CMSIS-NN
+
+tflite-micro               Name: tflite-micro
+                           Version: 48613f7ba1ffbda46ad771a77a35408f48f922e9
+                           Outgoing License: Apache-2.0
+                           License File: bsp/optional/modules/lib/tflite-micro/LICENSE
+                           Description: Software library for running machine learning models on embedded devices
+                           Location: bsp/optional/modules/lib/tflite-micro
+                           Origin: See middleware/eiq/tensorflow-lite/AUTHORS
+                           Url: https://github.com/zephyrproject-rtos/tflite-micro
+

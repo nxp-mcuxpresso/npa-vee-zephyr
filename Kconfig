@@ -1,0 +1,15 @@
+# Private config options to the ISO-TP sample
+
+# Copyright (c) 2023 Vestas Wind Systems A/S
+# SPDX-License-Identifier: Apache-2.0
+
+mainmenu "NVEE"
+
+config PARTIAL_BUFFER
+	bool "Use partial buffering"
+	default n
+	help
+	  Use Partial buffering on boards where there is not enough memory for a complete buffer
+
+source "Kconfig.zephyr"
+

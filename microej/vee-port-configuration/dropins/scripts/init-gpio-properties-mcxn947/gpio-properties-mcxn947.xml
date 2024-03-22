@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ANT Buildfile
+-->
+<project name="gpio-properties-mcxn947-s3-init">
+
+	<import file="${scripts.dir}/extension-init.xml" />
+	<target name="init/gpio-properties-mcxn947" extensionOf="init/execution" if="onS3">
+		<augment id="hil.main.classpath">
+			<fileset dir="${platform.dir}/mocks" includes="mockgpio-properties-mcxn947.jar"/>
+		</augment>
+	</target>
+	
+	<dirname property="ant.dir.init-test" file="${{ant.file.init-test}"/>
+	<target name="init/hil-addproperties" extensionOf="init/execution" if="onS3">
+		<property file="${ant.dir.init-test}\init-gpio-properties-mcxn947\gpio.properties" prefix="com.nxp.mock.properties.gpio."/>
+		<augment id="hil.main.properties">
+			<propertyref prefix="com.nxp.mock.properties.gpio."/>
+		</augment>
+	</target>
+
+</project>

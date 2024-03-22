@@ -1,0 +1,50 @@
+# The west manifest file for Harpoon Applications
+
+manifest:
+  defaults:
+    remote: github
+
+  remotes:
+    - name: nvee-internal
+      url-base: ssh://git@bitbucket.sw.nxp.com/nvee
+    - name: mcu-internal
+      url-base: ssh://git@bitbucket.sw.nxp.com/mcucore
+    - name: github
+      url-base: https://github.com/zephyrproject-rtos
+
+  # Please add items below in reverse alphabetical order
+  projects:
+    - name: zephyr
+      revision: 8469084dfae85f854555f0607f2c838dad097235
+      west-commands: scripts/west-commands.yml
+      path: nxpvee/bsp/zephyr
+    - name: cmsis
+      revision: 4b96cbb174678dcd3ca86e11e1f24bc5f8726da0
+      path: nxpvee/bsp/modules/hal/cmsis
+      groups:
+        - hal
+    - name: segger
+      revision: 798f95ea9304e5ed8165a661081443051f210733
+      path: nxpvee/bsp/modules/debug/segger
+      groups:
+        - debug
+    - name: cmsis-dsp
+      revision: 6489e771e9c405f1763b52d64a3f17a1ec488ace
+      path: nxpvee/bsp/modules/lib/cmsis-dsp
+    - name: cmsis-nn
+      revision: ea987c1ca661be723de83bd159aed815d6cbd430
+      path: nxpvee/bsp/modules/lib/cmsis-nn
+    - name: hal_nxp
+      revision: 3c64cd63125c86870802a561ce79dc33697b005c
+      path: nxpvee/bsp/modules/hal/nxp
+      groups:
+        - hal
+    - name: tflite-micro
+      revision: 48613f7ba1ffbda46ad771a77a35408f48f922e9
+      path: nxpvee/bsp/optional/modules/lib/tflite-micro
+      repo-path: tflite-micro
+      remote: github
+      groups:
+        - optional
+  self:
+    path: nxpvee
